@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Flixster</title>
 </head>
 <body>
-    <form id="search-form">
-        <input id="search-input" name="" placeholder="Enter a movie name">
-        <button id="search-button" type="submit" class="search-btn">Search Giphy!</button>
-
-        <div id="movies-grid"></div>
-        <div id="results"></div>
-
-        <div class="load-more-movies-area">
-            <button id="load-more-movies-btn" type="button" class="search-btn hidden">Show me more GIFs!</button>
+    <header>
+        <div id="header-container">
+            <a id="home" href=""><img id="logo" src="https://cdn1.iconfinder.com/data/icons/the-movies/100/movie-06-1024.png" alt="Flixster icon">
+            <span id="siteName">Flixster</span></a>
         </div>
-    </div>
-    </form>
+        <form id="search-form">
+            <label for="search-input"></label>
+            <input id="search-input" name="search-input" placeholder=" Enter a movie name" required>
+            <input id="search-button" type="submit" />
+        </form>
+    </header>
+    <main>
+        <div id="movies-grid">
 
+        </div>
+        <button id="close-search-btn">Close</button>
+        <div class="load-more-movies-area">
+            <button id="load-more-movies-btn" type="button">Show me more movies!</button>
+        </div>
+    </main>
+<script src="script.js"></script>
 </body>
 </html>
