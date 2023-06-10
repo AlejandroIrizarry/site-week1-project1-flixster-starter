@@ -43,7 +43,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 ### Walkthrough Video
 
 
-![Imgur](https://imgur.com/JipRGK1)
+![Imgur](https://imgur.com/JipRGK1.gif)
 
 
 
