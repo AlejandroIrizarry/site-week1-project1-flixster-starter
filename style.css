@@ -7,6 +7,8 @@
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
   }
   
   h1 {
@@ -15,13 +17,148 @@
     margin: 20px 0;
   }
 
-  .movies-grid {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: black;
-    padding: 10px;
+  a {
+    text-decoration: none;
   }
 
-  .movie-card {
-    padding: 20px;
-  }
+  /* Header */
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 100vw;
+    padding:8px;
+    text-align: center;
+}
+
+#home{
+    color: white;
+    text-decoration: none;
+    
+}
+#logo {
+    width: 50px;
+}
+
+
+#siteName{
+    margin-left: 8px;
+    font-size: 50px;
+    color: white;
+    
+}
+
+#search-form{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    padding: 18px 10px;
+    width: auto;
+    
+}
+#search-form input {
+    max-width: 700px;
+    font-size: 16px;
+    background-color:#1D1D1E ;
+    color: #D3D3D4;
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+#searchBtn {
+    border-radius: 15px;
+    background-color: black;
+    color:white;
+    border: 1px lightgray solid;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+
+/* Main section */
+main {
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: center;
+}
+
+#movies-grid {
+  display: flex;
+  /* grid-template-columns: auto auto auto auto; */
+  flex-flow: row wrap;
+  background-color: black;  
+  padding: 10px;
+  justify-content: center;
+}
+
+.movie-info {
+  padding: 100px;
+}
+
+
+
+
+/* //// Movie Grid //// */
+#movies {    width:80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/*.movie-card:hover {
+    width: 320px;
+    margin: 10px 13.5px;
+}
+
+
+.movie:hover .poster{
+    box-shadow: 0px 0px 17px white;
+}
+*/
+
+
+.movie-poster {
+    width:90%;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3%;
+}
+
+.movie-info {
+    padding: 4px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+.movie-title {
+  font-size: 80%;
+}
+
+.movie-votes {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+  height:  40px;
+  margin-right: 8px;
+}
+
+/* Buttons */
+#load-more-movies-btn {
+    display: block;
+    height: 75px;
+    width: 200px;
+    align-self: center;
+    border-radius: 5%;
+    background-color: #1D1D1E;
+    color:white;
+    border: 1px rgb(255, 250, 250);
+    font-size: 30px;
+    margin-bottom: 16px;
+}
