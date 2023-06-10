@@ -44,6 +44,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 
 ![Imgur](https://imgur.com/vJR6fy4.gif)
+https://imgur.com/vJR6fy4.gif
 
 
 
