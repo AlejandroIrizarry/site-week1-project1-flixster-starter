@@ -1,6 +1,6 @@
 // Gloabl Constants
 //const apiKey = "MY_API_KEY"
-const api_key = "1dd96d2fbaa44433b4338bc9d1a3ea9b"
+const api_key = "38f7a598025f212bdcefc8cdd3bd9abf"
 const moviesGrid = document.getElementById("movies-grid")
 const searchBtn = document.getElementById("search-button")
 const loadBtn = document.getElementById("load-more-movies-btn")
